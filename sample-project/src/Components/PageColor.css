@@ -1,0 +1,19 @@
+.box1{
+    display: block;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border: 2px solid black;
+    width: fit-content;
+    margin: 1vw auto;
+    padding: 1vw;
+}
+
+button{
+    display: block;
+    width: auto;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+}
+

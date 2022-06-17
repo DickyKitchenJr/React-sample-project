@@ -7,6 +7,7 @@ import Banner from './Components/Banner';
 import Buttons from './Components/Buttons';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
