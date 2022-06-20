@@ -1,6 +1,6 @@
 import React from "react";
 import "./Buttons.css";
-import PageColor from "./PageColor";
+import PageColor from "./PageColorChanger/PageColor";
 
 class Buttons extends React.Component{
     constructor(props){
@@ -16,16 +16,9 @@ class Buttons extends React.Component{
         });
     }
 
-    pageColor(){
-        if(this.selectedButton === "random-background-color"){
-            return document.body.style.backgroundColor = "green"
-        } else {
-            return document.body.style.backgroundColor = "red"
-        }
-    }
-
     render(){
         return(
+            <div>
               <form className="buttons">
                   <label>
                     <input type = "radio" 
@@ -34,10 +27,9 @@ class Buttons extends React.Component{
                     value = "random-background-color"
                     checked = {this.state.selectedButton === "random-background-color"}
                     onChange = {this.handleButtonChange}
-                    onClick = {document.body.style.backgroundColor = 'red'}
                     />Random Background Color
                   </label>
-                  <PageColor />
+              
                   <label>
                     <input type = "radio" 
                     name = "user-input"
@@ -47,8 +39,9 @@ class Buttons extends React.Component{
                     onChange = {this.handleButtonChange}
                     />Random Joke
                   </label>
-                  {this.pageColor}
               </form>
+                <PageColor />
+            </div>
         )
     }
 }

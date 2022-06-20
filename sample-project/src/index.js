@@ -8,16 +8,17 @@ import Buttons from './Components/Buttons';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-  <Banner />
-  <h2>Pick Your Random!</h2>
-  <Buttons />
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-  </div>
+    <Banner />
+    <h2>Pick Your Random</h2>
+    <Buttons />
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </div>  
 );
 
 // If you want to start measuring performance in your app, pass a function
