@@ -16,6 +16,7 @@ class Buttons extends React.Component{
         });
     }
 
+
     render(){
         return(
             <div>
@@ -24,20 +25,22 @@ class Buttons extends React.Component{
                     <input type = "radio" 
                     name = "user-input"
                     className="button1"
-                    value = "random-background-color"
-                    checked = {this.state.selectedButton === "random-background-color"}
+                    value = "spin-left"
+                    checked = {this.state.selectedButton === "spin-left"}
                     onChange = {this.handleButtonChange}
-                    />Random Background Color
+                    // onClick = {document.getElementsByClassName('App-logo').style.animation = "animation: App-logo-spin infinite 20s linear"}
+                    />Spin Left
                   </label>
               
                   <label>
                     <input type = "radio" 
                     name = "user-input"
                     className="button2"
-                    value = "random-joke"
-                    checked = {this.state.selectedButton === "random-joke"}
+                    value = "spin-right"
+                    checked = {this.state.selectedButton === "spin-right"}
                     onChange = {this.handleButtonChange}
-                    />Random Joke
+                    // onClick = {document.getElementsByClassName('App-logo').style.animation = "animation: App-logo-spin-reverse infinite 20s linear"}
+                    />Spin Right
                   </label>
               </form>
                 <PageColor />

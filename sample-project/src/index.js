@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <Banner />
-    <h2>Pick Your Random</h2>
+    <h2>Spin The Smile</h2>
     <Buttons />
     <React.StrictMode>
       <App />
