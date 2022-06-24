@@ -1,12 +1,12 @@
 import React from "react";
 import "./Buttons.css";
-import PageColor from "./PageColorChanger/PageColor";
+import smile from '../smile.png'
 
 class Buttons extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            selectedButton: null
+            selectedButton: "spin-smile-left"
         };
     }
 
@@ -16,7 +16,6 @@ class Buttons extends React.Component{
         });
     }
 
-
     render(){
         return(
             <div>
@@ -25,10 +24,9 @@ class Buttons extends React.Component{
                     <input type = "radio" 
                     name = "user-input"
                     className="button1"
-                    value = "spin-left"
-                    checked = {this.state.selectedButton === "spin-left"}
+                    value = "spin-smile-left"
+                    checked = {this.state.selectedButton === "spin-smile-left"}
                     onChange = {this.handleButtonChange}
-                    // onClick = {document.getElementsByClassName('App-logo').style.animation = "animation: App-logo-spin infinite 20s linear"}
                     />Spin Left
                   </label>
               
@@ -36,14 +34,14 @@ class Buttons extends React.Component{
                     <input type = "radio" 
                     name = "user-input"
                     className="button2"
-                    value = "spin-right"
-                    checked = {this.state.selectedButton === "spin-right"}
+                    value = "spin-smile-right"
+                    checked = {this.state.selectedButton === "spin-smile-right"}
                     onChange = {this.handleButtonChange}
-                    // onClick = {document.getElementsByClassName('App-logo').style.animation = "animation: App-logo-spin-reverse infinite 20s linear"}
                     />Spin Right
                   </label>
               </form>
-                <PageColor />
+              {/* trying to figure out how to make the image className vary depending on the radio button input */}
+              <img src={smile} className='App-logo' alt="logo" />
             </div>
         )
     }
