@@ -9,10 +9,11 @@ header{
   flex-direction: row;
 }
 
-/* search bar */
+/* search bar NEEDS WORK*/
 .form {
   display: flex;
   flex-direction: row;
+  border: 2px black solid;
 }
 
 .search-field {
@@ -24,14 +25,8 @@ header{
 }
 
 .search-button {
-  background: transparent;
+  background-color: goldenrod;
   border: none;
   outline: none;
   margin-left: -33px;
-}
-
-.search-button img {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
 }
