@@ -20,7 +20,7 @@ function App() {
         <p className="hello">
           hello
           <br />
-          select your address
+          <span className="topbar">select your address</span>
         </p>
         <form className="form">
           <input type="search" placeholder="Search" className="search-field" />
