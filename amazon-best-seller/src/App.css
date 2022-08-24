@@ -30,3 +30,8 @@ header{
   outline: none;
   margin-left: -33px;
 }
+/* end of search bar */
+.amazon-logo{
+  max-width: 10rem;
+  height: auto;
+}
