@@ -12,13 +12,12 @@ function App() {
   return (
     <div className="App">
       <header>
-        {/* NOT DISPLAYING */}
         <img
           className="amazon-logo"
           src="/images/amazonlogo.jpg"
           alt="amazon logo"
         />
-        <p>
+        <p className="hello">
           hello
           <br />
           select your address
@@ -29,18 +28,18 @@ function App() {
             {searchIcon}
           </button>
         </form>
-        <p>{flagIcon}EN</p>
-        <p>
+        <p className="topbar">{flagIcon}EN</p>
+        <p className="topbar">
           Hello, Sign in
           <br />
           <span>Account & Lists</span>
         </p>
-        <p>
+        <p className="topbar">
           Returns
           <br />
           <span>& Orders</span>
         </p>
-        <p>{shoppingCart}Cart</p>
+        <p className="topbar">{shoppingCart}Cart</p>
       </header>
     </div>
   );
