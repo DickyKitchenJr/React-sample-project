@@ -18,9 +18,9 @@ function App() {
           alt="amazon logo"
         />
         <p className="hello">
-          hello
+          Hello
           <br />
-          <span className="topbar">select your address</span>
+          <span className="topbar">Select Your Address</span>
         </p>
         <form className="form">
           <input type="search" placeholder="Search" className="search-field" />
@@ -30,7 +30,7 @@ function App() {
         </form>
         <p className="topbar">{flagIcon}EN</p>
         <p className="topbar">
-          Hello, Sign in
+          Hello, Sign In
           <br />
           <span>Account & Lists</span>
         </p>
