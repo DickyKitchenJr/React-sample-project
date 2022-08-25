@@ -14,7 +14,7 @@ function App() {
       <header>
         <img
           className="amazon-logo"
-          src="/images/amazonlogo.jpg"
+          src="/images/amazonlogo.png"
           alt="amazon logo"
         />
         <p className="hello">
