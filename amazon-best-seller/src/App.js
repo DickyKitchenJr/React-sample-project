@@ -7,9 +7,9 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
 function App() {
-  const searchIcon = <FontAwesomeIcon icon={faMagnifyingGlass} />;
-  const flagIcon = <FontAwesomeIcon icon={faFlagUsa} />;
-  const shoppingCart = <FontAwesomeIcon icon={faCartShopping} />;
+  const searchIcon = <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon"/>;
+  const flagIcon = <FontAwesomeIcon icon={faFlagUsa} className="flag-icon"/>;
+  const shoppingCart = <FontAwesomeIcon icon={faCartShopping}/>;
   const locationDot = <FontAwesomeIcon icon={faLocationDot} />;
   return (
     <div className="App">
@@ -25,12 +25,12 @@ function App() {
           <span className="topbar span">{locationDot} Select Your Address</span>
         </p>
         <form className="form">
-          <input type="search" placeholder="Search" className="search-field" />
+          <input type="search" placeholder="Search" className="search-field" size="100"/>
           <button type="submit" className="search-button">
             {searchIcon}
           </button>
         </form>
-        <p className="topbar">{flagIcon}EN</p>
+        <p className="topbar">English<br></br>{flagIcon}</p>
         <p className="topbar">
           Hello, Sign In
           <br />
@@ -41,7 +41,7 @@ function App() {
           <br />
           <span className="span">& Orders</span>
         </p>
-        <p className="topbar span">{shoppingCart}Cart</p>
+        <p className="topbar span cart">{shoppingCart}Cart</p>
       </header>
     </div>
   );
