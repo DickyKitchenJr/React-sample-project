@@ -14,14 +14,14 @@ function TopBar() {
   const shoppingCart = <FontAwesomeIcon icon={faCartShopping} />;
   const locationDot = <FontAwesomeIcon icon={faLocationDot} />;
   return (
-    <div className="App">
+    <div>
       <header>
         <img
           className="amazon-logo"
           src="/images/amazonlogo.png"
           alt="amazon logo"
         />
-        <p className="hello">
+        <p className="hello topbar-text">
           Hello
           <br />
           <span className="topbar span">{locationDot} Select Your Address</span>
@@ -37,16 +37,16 @@ function TopBar() {
             {searchIcon}
           </button>
         </form>
-        <p className="topbar">
+        <p className="topbar topbar-text">
           English<br></br>
           {flagIcon}
         </p>
-        <p className="topbar">
+        <p className="topbar topbar-text">
           Hello, Sign In
           <br />
           <span className="span">Account & Lists</span>
         </p>
-        <p className="topbar">
+        <p className="topbar topbar-text">
           Returns
           <br />
           <span className="span">& Orders</span>
