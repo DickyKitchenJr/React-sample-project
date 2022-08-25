@@ -45,3 +45,7 @@ header{
 .topbar{
   color: lightgray;
 }
+
+.span{
+  font-weight: bold;
+}
