@@ -15,7 +15,9 @@ function BookList() {
       <img clasName="book-cover" src="https://m.media-amazon.com/images/I/811YQ9+UOOL._AC_UY327_FMwebp_QL65_.jpg" alt="book cover" />
       <p className="book-title">Prey/Pray: Origin of The Average Man</p>
       <p className="author">&gt;Dicky Kitchen Jr</p>
-      {star}{star}{star}{star}{halfStar}
+      <div className="star-section">{star}{star}{star}{star}{halfStar}<p>10352</p>
+      </div>
+      
       <p className="book-format-type">Paperback</p>
       <p className="book-price">$14.99</p>
     </div>

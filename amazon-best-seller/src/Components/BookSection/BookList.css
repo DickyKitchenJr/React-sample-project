@@ -25,6 +25,10 @@
     color: rgb(1, 121, 121);
 }
 
+.star-section{
+    display: inline-flex;
+}
+
 .star-icon, .half-star-icon{
     color: rgb(237, 174, 1);
 }
