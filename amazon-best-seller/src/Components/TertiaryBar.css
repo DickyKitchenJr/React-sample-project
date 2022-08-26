@@ -1,38 +1,37 @@
-.tertiary-bar{
-    display: flex;
-    padding-top: .8rem;
-    padding-bottom: .8rem;
+.tertiary-bar {
+  display: flex;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
-.books{
-    font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-    font-size: .7rem;
-    padding-left: 1.25rem;
+.books {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  padding-left: 1.25rem;
 }
 
-.tertiary-bar-text{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .7rem;
-    font-weight: lighter;
-    padding-left: 1.5rem;
-
+.tertiary-bar-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  padding-left: 1.5rem;
 }
 
-.best-seller-bar{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(1, 125, 138);
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+.best-seller-bar {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(1, 125, 138);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
-.bs-bar-line1{
-    font-size: 4rem;
-    color: whitesmoke;
+.bs-bar-line1 {
+  font-size: 4rem;
+  color: whitesmoke;
 }
 
-.bs-bar-line2{
-    color: whitesmoke;
-    font-weight: bold;
+.bs-bar-line2 {
+  color: whitesmoke;
+  font-weight: bold;
 }
