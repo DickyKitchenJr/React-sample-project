@@ -1,4 +1,34 @@
 .booklist{
     border: .09rem solid lightgrey;
-    
+}
+
+.ranking-block{
+    width: fit-content;
+    color: white;
+    background-color:rgb(215, 91, 46);
+    padding-left: .5rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.2rem;
+}
+
+.border-cap{
+    background-image: linear-gradient(to bottom right, rgb(215, 91, 46) 43%, white 57%);
+    padding-bottom: 0.3rem;
+    padding-top: 0.2rem;
+}
+
+.book-title, .author, .book-format-type, .book-price{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book-title, .author{
+    color: rgb(1, 121, 121);
+}
+
+.star-icon, .half-star-icon{
+    color: rgb(237, 174, 1);
+}
+
+.book-price{
+    color: rgb(159, 42, 0);
 }

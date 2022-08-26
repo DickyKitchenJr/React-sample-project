@@ -7,9 +7,7 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import './TopBar.css';
 
 function TopBar() {
-  const searchIcon = (
-    <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon" />
-  );
+  const searchIcon = <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon" />;
   const flagIcon = <FontAwesomeIcon icon={faFlagUsa} className="flag-icon" />;
   const shoppingCart = <FontAwesomeIcon icon={faCartShopping} />;
   const locationDot = <FontAwesomeIcon icon={faLocationDot} />;
