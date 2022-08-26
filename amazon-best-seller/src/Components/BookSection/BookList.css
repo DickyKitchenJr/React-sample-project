@@ -17,15 +17,15 @@
     padding-top: 0.2rem;
 }
 
-/* image is not adjusting, why? */
 .book-cover{
     display: block;
-    max-width: 55%;
+    max-width: 80%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .book-title, .author, .book-format-type, .book-price, .rating-amount{
@@ -64,6 +64,9 @@
 }
 
 .book-title, .author, .star-section, .book-format-type, .book-price{
-    padding-left: .8rem;
     padding-top: .15rem;
+}
+
+.inside-book-box{
+    padding: 1rem 1rem 0 1rem;
 }
