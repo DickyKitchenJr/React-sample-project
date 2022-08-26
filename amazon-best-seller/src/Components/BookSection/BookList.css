@@ -19,10 +19,13 @@
 
 /* image is not adjusting, why? */
 .book-cover{
-    max-width: 75%;
+    display: block;
+    max-width: 55%;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 1rem;
-    padding-left: 6rem;
+    padding-bottom: 1rem;
 }
 
 .book-title, .author, .book-format-type, .book-price, .rating-amount{

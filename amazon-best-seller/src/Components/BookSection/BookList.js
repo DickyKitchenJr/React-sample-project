@@ -1,4 +1,5 @@
 import React from "react";
+import { randomNum } from "./randomNum";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faStarHalf } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +16,7 @@ function BookList() {
       <img className="book-cover" src="https://m.media-amazon.com/images/I/811YQ9+UOOL._AC_UY327_FMwebp_QL65_.jpg" alt="book cover" />
       <p className="book-title">Prey/Pray: Origin of The Average Man</p>
       <p className="author">&gt;Dicky Kitchen Jr</p>
-      <div className="star-section">{star}{star}{star}{star}{halfStar}<p className="rating-amount">10352</p>
+      <div className="star-section">{star}{star}{star}{star}{halfStar}<p className="rating-amount">{randomNum()}</p>
       </div>
       
       <p className="book-format-type">Paperback</p>
