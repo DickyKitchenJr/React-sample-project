@@ -17,11 +17,17 @@
     padding-top: 0.2rem;
 }
 
-.book-title, .author, .book-format-type, .book-price{
+/* image is not adjusting, why? */
+.book-cover{
+    max-width: 50%;
+    max-height: auto;
+}
+
+.book-title, .author, .book-format-type, .book-price, .rating-amount{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.book-title, .author{
+.book-title, .author, .rating-amount{
     color: rgb(1, 121, 121);
 }
 
@@ -30,9 +36,29 @@
 }
 
 .star-icon, .half-star-icon{
-    color: rgb(237, 174, 1);
+    color: rgb(216, 159, 1);
+    font-size: .8rem;
+}
+
+.book-title{
+    font-size: .9rem;
+}
+
+.author, .rating-amount{
+    font-size: .8rem;
+}
+
+.book-format-type{
+    font-size: .75rem;
 }
 
 .book-price{
     color: rgb(159, 42, 0);
+    font-size: .9rem;
+    padding-bottom: 1rem;
+}
+
+.book-title, .author, .star-section, .book-format-type, .book-price{
+    padding-left: .8rem;
+    padding-top: .15rem;
 }
