@@ -1,8 +1,30 @@
 .side-bar-nav{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .8rem;
-    line-height: 1.35rem;
+    font-size: .85rem;
+    line-height: 1.5rem;
     display: inline-block;
+    padding-top: .75rem;
+    padding-right: 6.4rem;
+}
+
+.first-category{
+    padding-left: 1rem;
+    list-style-type: none;
+}
+
+.second-category{
+    list-style-type: none;
+    padding-left: .8rem;
+}
+
+.third-category{
+    list-style-type: none;
+    padding-left: .8rem;
+}
+
+.fourth-category{
+    list-style-type: none;
+    padding-left: .8rem;
 }
 
 .selected-category{

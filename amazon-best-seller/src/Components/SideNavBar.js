@@ -4,13 +4,13 @@ import './SideNavBar.css';
 function SideNavBar() {
   return (
     <div className='side-bar-nav'>
-        <ul>
+        <ul className='first-category'>
             <li>&lt; Any Department</li>
-            <ul>
+            <ul className='second-category'>
                 <li>&lt; Books</li>
-                <ul>
+                <ul className='third-category'>
                     <li>&lt; Mystery, Thriller & Suspense</li>
-                    <ul>
+                    <ul className='fourth-category'>
                         <li className='selected-category'>Thriller & Suspense</li>
                         <li>Crime</li>
                         <li>Domestic</li>
