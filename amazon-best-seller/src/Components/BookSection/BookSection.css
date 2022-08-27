@@ -1,6 +1,7 @@
 .book-section{
     display: inline-block;
     border-left: .09rem solid lightgrey;
+    margin-top: .4rem;
 }
 
 .book-list-heading{

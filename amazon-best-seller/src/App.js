@@ -12,8 +12,10 @@ function App() {
       <TopBar />
       <MiddleBar />
       <TertiaryBar />
-      <SideNavBar />
-      <BookSection />
+      <div className="test">
+        <SideNavBar />
+        <BookSection />
+      </div>
     </>
   );
 }
