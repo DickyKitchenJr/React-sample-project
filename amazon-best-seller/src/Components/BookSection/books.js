@@ -1,7 +1,7 @@
 export const books = [
   {
     id: 1,
-    img: "https://m.media-amazon.com/images/I/51u3V9YlYCL.jpg",
+    img: "https://images-na.ssl-images-amazon.com/images/I/41m7YltcdYL._SX331_BO1,204,203,200_.jpg",
     title:
       "Prey/Pray: Origin of The Average Man: second edition with bonus material",
     author: "Dicky Kitchen Jr",
@@ -34,7 +34,7 @@ export const books = [
 
   {
     id: 5,
-    img: "https://m.media-amazon.com/images/I/51Y8BNkUDDL.jpg",
+    img: "https://images-na.ssl-images-amazon.com/images/I/41zIp3-e9IL._SX303_BO1,204,203,200_.jpg",
     title: "Orphan X",
     author: "Gregg Hurwitz",
     price: "$9.99",
@@ -66,66 +66,66 @@ export const books = [
 
   {
     id: 9,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://m.media-amazon.com/images/I/41s8q2+KoEL.jpg",
+    title: "Blood Orphan: A Tom Grant Novel",
+    author: "Samantha Adair",
+    price: "$17.99",
   },
 
   {
     id: 10,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://images-na.ssl-images-amazon.com/images/I/41RHpV6ti8L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title: "The Perfect Marriage",
+    author: "Jeneva Rose",
+    price: "$11.99",
   },
 
   {
     id: 12,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://images-na.ssl-images-amazon.com/images/I/414rJ87SANL._SX331_BO1,204,203,200_.jpg",
+    title: "Rich Blood (Jason Rich)",
+    author: "Robert Bailey",
+    price: "$11.99",
   },
 
   {
     id: 13,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://images-na.ssl-images-amazon.com/images/I/41QgqrJnZ0L._SX329_BO1,204,203,200_.jpg",
+    title: "All Good People Here",
+    author: "Ashley Flowers",
+    price: "$26.99",
   },
 
   {
     id: 14,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://images-na.ssl-images-amazon.com/images/I/411u5WTIH9L._SX326_BO1,204,203,200_.jpg",
+    title: "The Housemaid",
+    author: "Freida McFadden",
+    price: "$12.99",
   },
 
   {
     id: 15,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://images-na.ssl-images-amazon.com/images/I/51eHhm0XRmL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title: "Twenty Years Later",
+    author: "Charlie Donlea",
+    price: "$16.99",
   },
 
   {
     id: 16,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://images-na.ssl-images-amazon.com/images/I/51xOIck6aoL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title: "What She Found (Tracy Crosswhite)",
+    author: "Robert Dugoni",
+    price: "$11.99",
   },
 
   {
     id: 17,
-    img: "",
-    title: "",
-    author: "",
-    price: "$",
+    img: "https://images-na.ssl-images-amazon.com/images/I/51J--Mv0jxL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title: "The Last Mrs. Parrish",
+    author: "Liv Constantine",
+    price: "$11.99",
   },
 
   {
