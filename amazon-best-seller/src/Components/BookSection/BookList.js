@@ -5,7 +5,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faStarHalf } from "@fortawesome/free-solid-svg-icons";
 import "./BookList.css";
 
-function BookList() {
+function BookList(props) {
   const star = <FontAwesomeIcon icon={faStar} className="star-icon" />;
   const halfStar = (
     <FontAwesomeIcon icon={faStarHalf} className="half-star-icon" />
@@ -13,16 +13,16 @@ function BookList() {
   return (
     <div className="booklist">
       <p className="ranking-block">
-        #1&nbsp;&nbsp;<span className="border-cap">&nbsp;&nbsp;&nbsp;</span>
+        #{props.id}&nbsp;&nbsp;<span className="border-cap">&nbsp;&nbsp;&nbsp;</span>
       </p>
       <div className="inside-book-box">
         <img
           className="book-cover"
-          src="https://m.media-amazon.com/images/I/811YQ9+UOOL._AC_UY327_FMwebp_QL65_.jpg"
+          src={props.img}
           alt="book cover"
         />
-        <p className="book-title">Prey/Pray: Origin of The Average Man</p>
-        <p className="author">&gt;Dicky Kitchen Jr</p>
+        <p className="book-title">{props.title}</p>
+        <p className="author">&gt;{props.author}</p>
         <div className="star-section">
           {star}
           {star}
@@ -33,7 +33,7 @@ function BookList() {
         </div>
 
         <p className="book-format-type">Paperback</p>
-        <p className="book-price">$14.99</p>
+        <p className="book-price">{props.price}</p>
       </div>
     </div>
   );
