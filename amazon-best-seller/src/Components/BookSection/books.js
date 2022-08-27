@@ -18,9 +18,9 @@ export const books = [
 
   {
     id: 3,
-    img: "https://images-na.ssl-images-amazon.com/images/I/61tqfa+xbWL._AC_UL600_SR600,400_.jpg",
-    title: "Verity",
-    author: "Colleen Hoover",
+    img: "https://images-na.ssl-images-amazon.com/images/I/41RHpV6ti8L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+    title: "The Perfect Marriage",
+    author: "Jeneva Rose",
     price: "$11.99",
   },
 
@@ -74,10 +74,10 @@ export const books = [
 
   {
     id: 10,
-    img: "https://images-na.ssl-images-amazon.com/images/I/41RHpV6ti8L._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
-    title: "The Perfect Marriage",
-    author: "Jeneva Rose",
-    price: "$11.99",
+    img: "https://images-na.ssl-images-amazon.com/images/I/41sqHvYVIeL._SX331_BO1,204,203,200_.jpg",
+    title: "When She Returned",
+    author: "Lucinda Berry",
+    price: "$9.99",
   },
 
   {
@@ -227,7 +227,7 @@ export const books = [
   {
     id: 30,
     img: "https://images-na.ssl-images-amazon.com/images/I/513p8n+aX+L._SX330_BO1,204,203,200_.jpg",
-    title:"Dead Eye (Grey Man)",
+    title: "Dead Eye (Grey Man)",
     author: "Mark Greaney",
     price: "$9.99",
   },
