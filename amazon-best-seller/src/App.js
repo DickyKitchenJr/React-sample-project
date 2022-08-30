@@ -4,6 +4,7 @@ import MiddleBar from "./Components/MiddleBar";
 import TertiaryBar from "./Components/TertiaryBar";
 import SideNavBar from "./Components/SideNavBar";
 import BookSection from "./Components/BookSection/BookSection";
+import FootBars from "./Components/FootBars";
 import "./App.css";
 
 function App() {
@@ -12,10 +13,11 @@ function App() {
       <TopBar />
       <MiddleBar />
       <TertiaryBar />
-      <div className="test">
+      <div className="side-nav-and-books">
         <SideNavBar />
         <BookSection />
       </div>
+      <FootBars />
     </>
   );
 }

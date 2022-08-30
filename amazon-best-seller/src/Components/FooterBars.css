@@ -1,0 +1,8 @@
+.sign-in-footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: .09rem solid rgb(152, 151, 151);
+    border-bottom: .09rem solid rgb(152, 151, 151);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
