@@ -1,31 +1,48 @@
-.sign-in-footer{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .8rem;
-    border-top: .09rem solid rgb(152, 151, 151);
-    border-bottom: .09rem solid rgb(152, 151, 151);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.sign-in-footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  border-top: 0.09rem solid rgb(152, 151, 151);
+  border-bottom: 0.09rem solid rgb(152, 151, 151);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.sign-in-button{
-    font-size: .8rem;
-    font-weight: bold;
-    border: .09rem solid rgb(215, 91, 46);
-    background-image: linear-gradient(to bottom, rgb(245, 210, 96), rgb(242, 221, 154) 35%, rgb(250, 189, 66) 80%);
-    border-radius: .2rem;
-    padding-top: .3rem;
-    padding-bottom: .3rem;
-    padding-left: 5.5rem;
-    padding-right: 5.5rem;
-    margin-top: .3rem;
-    margin-bottom: .3rem;
+.sign-in-button {
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 0.09rem solid rgb(215, 91, 46);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(245, 210, 96),
+    rgb(242, 221, 154) 35%,
+    rgb(250, 189, 66) 80%
+  );
+  border-radius: 0.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
-.new-customer-text{
-    font-size: .7rem;
+.new-customer-text {
+  font-size: 0.7rem;
 }
 
-.start-here{
-    color: rgb(1, 121, 121);
+.start-here {
+  color: rgb(1, 121, 121);
+}
+
+.back-to-top {
+  text-align: center;
+  background-color: rgb(22, 43, 51);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.return-to-top-a {
+  color: whitesmoke;
+  text-decoration: none;
 }

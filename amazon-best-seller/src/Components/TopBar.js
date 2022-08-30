@@ -13,7 +13,7 @@ function TopBar() {
   const locationDot = <FontAwesomeIcon icon={faLocationDot} />;
   return (
     <div>
-      <header>
+      <header id='header'>
         <img
           className="amazon-logo"
           src="/images/amazonlogo.png"
