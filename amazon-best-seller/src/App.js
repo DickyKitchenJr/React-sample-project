@@ -6,6 +6,7 @@ import SideNavBar from "./Components/SideNavBar";
 import BookSection from "./Components/BookSection/BookSection";
 import FooterBars from "./Components/FooterBars";
 import "./App.css";
+import MarketingFooter from "./Components/MarketingFooter";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <BookSection />
       </div>
       <FooterBars />
+      <MarketingFooter />
     </>
   );
 }

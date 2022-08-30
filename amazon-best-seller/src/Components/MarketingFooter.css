@@ -1,0 +1,16 @@
+.marketing-footer {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+  background-color: rgb(8, 8, 35);
+  color: whitesmoke;
+}
+
+.list-column {
+  flex-flow: column;
+  list-style: none;
+}
+
+.list-title {
+  font-weight: bold;
+}
