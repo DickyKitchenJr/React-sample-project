@@ -1,7 +1,7 @@
 import React from 'react';
 import './FooterBars.css';
 
-function FootBars() {
+function FooterBars() {
   return (
     <div>
         <div className='sign-in-footer'>
@@ -13,4 +13,4 @@ function FootBars() {
   )
 }
 
-export default FootBars
+export default FooterBars

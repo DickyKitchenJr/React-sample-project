@@ -4,7 +4,7 @@ import MiddleBar from "./Components/MiddleBar";
 import TertiaryBar from "./Components/TertiaryBar";
 import SideNavBar from "./Components/SideNavBar";
 import BookSection from "./Components/BookSection/BookSection";
-import FootBars from "./Components/FootBars";
+import FooterBars from "./Components/FooterBars";
 import "./App.css";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <SideNavBar />
         <BookSection />
       </div>
-      <FootBars />
+      <FooterBars />
     </>
   );
 }
