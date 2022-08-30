@@ -6,7 +6,7 @@ function FooterBars() {
     <div>
         <div className='sign-in-footer'>
             <p>See personalized recommendations</p>
-            <button type='button'>Sign in</button>
+            <button type='button' className='sign-in-button'>Sign in</button>
             <p>New customer? <span>Start here.</span></p>
         </div>
     </div>
