@@ -12,6 +12,12 @@
     border-left: .09rem solid lightgrey;
 }
 
+@media only screen and (max-width: 800px){
+    .book-list-heading{
+        font-size: 1rem;
+    }
+}
+
 .listed-books{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
