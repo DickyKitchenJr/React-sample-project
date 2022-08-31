@@ -67,18 +67,60 @@
     font-size: .9rem;
 }
 
+@media only screen and (max-width: 1200px){
+    .book-title{
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .book-title{
+        font-size: .5rem;
+    }
+}
+
 .author, .rating-amount{
     font-size: .8rem;
+}
+
+@media only screen and (max-width: 1200px){
+    .author, .rating-amount, .star-icon, .half-star-icon{
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .author, .rating-amount, .star-icon, .half-star-icon{
+        font-size: .5rem;
+    }
 }
 
 .book-format-type{
     font-size: .75rem;
 }
 
+@media only screen and (max-width: 1200px){
+    .book-format-type{
+        font-size: .5rem;
+    }
+}
+
 .book-price{
     color: rgb(159, 42, 0);
     font-size: .9rem;
     padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1200px){
+    .book-price{
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .book-price{
+        font-size: .5rem;
+    }
 }
 
 .book-title, .author, .star-section, .book-format-type, .book-price{
