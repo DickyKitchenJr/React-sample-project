@@ -39,6 +39,18 @@
     }
 }
 
+@media only screen and (max-width: 1000px){
+    .book-cover{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .inside-book-box{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 @media only screen and (max-width: 600px){
     .book-cover{
         max-width: 100%;
