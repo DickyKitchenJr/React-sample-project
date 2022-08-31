@@ -11,6 +11,12 @@
     padding-top: 0.2rem;
 }
 
+@media only screen and (max-width: 1200px){
+    .ranking-block{
+        font-size: .5rem;
+    }
+}
+
 .border-cap{
     background-image: linear-gradient(to bottom right, rgb(215, 91, 46) 43%, white 57%);
     padding-bottom: 0.3rem;
@@ -19,14 +25,26 @@
 
 .book-cover{
     display: block;
-    max-width: 80%;
-    height: auto;
+    max-width: 75%;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 1rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
+
+@media only screen and (max-width: 1200px){
+    .book-cover{
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .book-cover{
+        max-width: 100%;
+    }
+}
+
 
 .book-title, .author, .book-format-type, .book-price, .rating-amount{
     font-family: Arial, Helvetica, sans-serif;
