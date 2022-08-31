@@ -31,7 +31,31 @@
   color: whitesmoke;
 }
 
+@media only screen and (max-width: 800px) {
+  .bs-bar-line1{
+    font-size: 3rem;
+  }  
+}
+
+@media only screen and (max-width: 600px) {
+  .bs-bar-line1{
+    font-size: 2rem;
+  }  
+}
+
 .bs-bar-line2 {
   color: whitesmoke;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 800px){
+  .bs-bar-line2{
+    font-size: .9rem;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .bs-bar-line2{
+    font-size: .6rem;
+  }
 }
