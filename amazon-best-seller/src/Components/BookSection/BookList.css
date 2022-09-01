@@ -44,18 +44,13 @@
         padding-left: 0;
         padding-right: 0;
     }
-    
-    .inside-book-box{
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
 }
 
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 800px){
     .book-cover{
-        max-width: 100%;
+        max-width: 125%;
     }
-}
+} */
 
 
 .book-title, .author, .book-format-type, .book-price, .rating-amount{
@@ -85,11 +80,11 @@
     }
 }
 
-@media only screen and (max-width: 800px){
+/* @media only screen and (max-width: 800px){
     .book-title{
         font-size: .5rem;
     }
-}
+} */
 
 .author, .rating-amount{
     font-size: .8rem;
@@ -101,11 +96,11 @@
     }
 }
 
-@media only screen and (max-width: 800px){
+/* @media only screen and (max-width: 800px){
     .author, .rating-amount, .star-icon, .half-star-icon{
         font-size: .5rem;
     }
-}
+} */
 
 .book-format-type{
     font-size: .75rem;
@@ -129,16 +124,25 @@
     }
 }
 
-@media only screen and (max-width: 800px){
+/* @media only screen and (max-width: 800px){
     .book-price{
         font-size: .5rem;
     }
-}
+} */
 
 .book-title, .author, .star-section, .book-format-type, .book-price{
     padding-top: .15rem;
 }
 
 .inside-book-box{
-    padding: 1rem 1rem 0 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .inside-book-box{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
 }
