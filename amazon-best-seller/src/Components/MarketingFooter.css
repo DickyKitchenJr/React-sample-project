@@ -11,9 +11,18 @@
   padding-right: 6.5rem;
 }
 
+@media only screen and (max-width: 900px){
+  .marketing-footer{
+    font-size: .65rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 .list-column {
   flex-flow: column;
   list-style: none;
+  padding-right: 1rem;
 }
 
 .list-title {
