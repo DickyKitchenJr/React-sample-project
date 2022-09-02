@@ -1,10 +1,9 @@
 header {
   display: flex;
-  flex-direction: row;
   background-color: rgb(19, 25, 33);
 }
 
-/* search bar NEEDS WORK*/
+/* search bar*/
 .form {
   display: flex;
   flex-direction: row;
@@ -62,15 +61,52 @@ header {
 }
 
 .cart {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.09rem;
   padding-top: 1.2rem;
-  padding-left: .9rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
 }
 
 .topbar-text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: .9rem;
-  padding-top: .9rem;
+  font-size: 0.9rem;
+  padding-top: 0.9rem;
   padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cart {
+    font-size: 0.8rem;
+  }
+
+  .topbar-text {
+    font-size: 0.6rem;
+  }
+
+  .form {
+    max-height: 4rem;
+  }
+
+  .amazon-logo {
+    max-height: 4rem;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .cart{
+    font-size: .7rem;
+  }
+
+  .topbar-text{
+    font-size: .55rem;
+  }
+
+  .form {
+    max-height: 3.5rem;
+  }
+
+  .amazon-logo{
+    max-height: 3rem;
+  }
 }

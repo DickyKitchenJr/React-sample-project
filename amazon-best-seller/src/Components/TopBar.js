@@ -12,7 +12,6 @@ function TopBar() {
   const shoppingCart = <FontAwesomeIcon icon={faCartShopping} />;
   const locationDot = <FontAwesomeIcon icon={faLocationDot} />;
   return (
-    <div>
       <header id='header'>
         <img
           className="amazon-logo"
@@ -51,7 +50,6 @@ function TopBar() {
         </p>
         <p className="topbar span cart">{shoppingCart}Cart</p>
       </header>
-    </div>
   );
 }
 
