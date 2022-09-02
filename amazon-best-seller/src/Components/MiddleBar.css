@@ -22,5 +22,16 @@
 @media only screen and (max-width: 950px){
   .middle-bar-text{
     font-size: .45rem;
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .middle-bar-text-end{
+    padding-right: 1rem;
+  }
+  
+  .middle-bar-text{
+    padding-left: .8rem;
   }
 }

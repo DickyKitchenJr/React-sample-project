@@ -19,7 +19,7 @@ function MiddleBar() {
       <p className="middle-bar-text">Books</p>
       <p className="middle-bar-text">Music</p>
       <p className="middle-bar-text">Kindle Books</p>
-      <p className="middle-bar-text">Registry</p>
+      <p className="middle-bar-text middle-bar-text-end">Registry</p>
     </div>
   );
 }
