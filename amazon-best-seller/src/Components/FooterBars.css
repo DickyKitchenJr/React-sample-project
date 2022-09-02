@@ -42,6 +42,12 @@
   padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 900px){
+  .back-to-top{
+    font-size: .75rem;
+  }
+}
+
 .return-to-top-a {
   color: whitesmoke;
   text-decoration: none;
