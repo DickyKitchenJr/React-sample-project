@@ -37,6 +37,12 @@
   padding-bottom: 3rem;
 }
 
+@media only screen and (max-width: 800px){
+  .best-seller-bar{
+    padding-bottom: 2rem;
+  }
+}
+
 .bs-bar-line1 {
   font-size: 4rem;
   color: whitesmoke;
