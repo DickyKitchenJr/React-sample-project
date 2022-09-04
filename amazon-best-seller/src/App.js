@@ -11,15 +11,20 @@ import MarketingFooter from "./Components/MarketingFooter";
 function App() {
   return (
     <>
-      <TopBar />
-      <MiddleBar />
-      <TertiaryBar />
-      <div className="side-nav-and-books">
-        <SideNavBar />
-        <BookSection />
+      <div className="landscape-orientation">
+        <TopBar />
+        <MiddleBar />
+        <TertiaryBar />
+        <div className="side-nav-and-books">
+          <SideNavBar />
+          <BookSection />
+        </div>
+        <FooterBars />
+        <MarketingFooter />
       </div>
-      <FooterBars />
-      <MarketingFooter />
+      <div className="portrait-orientation">
+        <p>I'll only show in portrait layout (i.e. cell phones)</p>
+      </div>
     </>
   );
 }
