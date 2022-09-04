@@ -5,8 +5,9 @@ import TertiaryBar from "./Components/TertiaryBar";
 import SideNavBar from "./Components/SideNavBar";
 import BookSection from "./Components/BookSection/BookSection";
 import FooterBars from "./Components/FooterBars";
-import "./App.css";
 import MarketingFooter from "./Components/MarketingFooter";
+import MobileTopBar from "./Components/PortraitOrientation/MobileTopBar";
+import "./App.css";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </div>
       <div className="portrait-orientation">
         <p>I'll only show in portrait layout (i.e. cell phones)</p>
+        <MobileTopBar />
       </div>
     </>
   );
