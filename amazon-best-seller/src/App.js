@@ -24,7 +24,6 @@ function App() {
         <MarketingFooter />
       </div>
       <div className="portrait-orientation">
-        <p>I'll only show in portrait layout (i.e. cell phones)</p>
         <MobileTopBar />
       </div>
     </>
