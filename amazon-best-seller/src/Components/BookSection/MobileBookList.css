@@ -1,0 +1,58 @@
+.mobile-booklist{
+    display: flex;
+    border-bottom: .09rem solid lightgrey;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.left-mobile-booklist{
+    display: flex;
+}
+
+.mobile-ranking-block{
+    max-width: fit-content;
+}
+
+.mobile-book-cover{
+    max-width: 5rem;
+    padding-top: .75rem;
+    padding-bottom: 1rem;
+    margin-left: -.25rem;
+}
+
+.right-mobile-booklist{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.mobile-book-title, .mobile-rating-amount, .mobile-book-price{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-book-title{
+    font-size: .9rem;
+    padding-bottom: .5rem;
+}
+
+.mobile-star-section{
+    display: inline-flex;
+}
+
+.mobile-star-icon, .mobile-half-star-icon{
+    color: rgb(255, 183, 15);
+    font-size: .9rem;
+}
+
+.mobile-rating-amount{
+    font-size: .75rem;
+}
+
+.mobile-star-section{
+    display: flex;
+}
+
+.mobile-book-price{
+    color: rgb(239, 13, 13);
+    font-size: .9rem;
+    padding-top: .5rem;
+}

@@ -1,0 +1,18 @@
+.nav-scroll{
+    display: flex;
+    overflow: scroll;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+    padding-left: 1rem;
+    border-top: .09rem solid lightgrey;
+    border-bottom: .09rem solid lightgrey;
+}
+
+.nav-list{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-width: 35%;
+    letter-spacing: .09rem;
+}

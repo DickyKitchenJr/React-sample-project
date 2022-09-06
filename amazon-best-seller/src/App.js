@@ -9,6 +9,7 @@ import MarketingFooter from "./Components/MarketingFooter";
 import MobileTopBar from "./Components/PortraitOrientation/MobileTopBar";
 import MobileMiddleBar from "./Components/PortraitOrientation/MobileMiddleBar";
 import MobileTertiaryBar from "./Components/PortraitOrientation/MobileTertiaryBar";
+import MobileBookSection from "./Components/BookSection/MobileBookSection";
 import "./App.css";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <MobileTopBar />
         <MobileMiddleBar />
         <MobileTertiaryBar />
+        <MobileBookSection />
       </div>
     </>
   );
