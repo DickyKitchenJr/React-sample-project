@@ -10,7 +10,7 @@ function MobileTopBar() {
   const shoppingCart = <FontAwesomeIcon icon={faCartShopping}  className="mobile-shoppingcart-icon"/>;
   const hamburgerIcon = <FontAwesomeIcon icon={faBars} className="mobile-hamburger-icon" />;
   return (
-    <div className="mobile-top-bar">
+    <div className="mobile-top-bar" id="mobile-top-bar">
       <div className="above-search-bar">
         <div className="left-above-search-bar">
           {hamburgerIcon}

@@ -11,6 +11,7 @@ import MobileMiddleBar from "./Components/PortraitOrientation/MobileMiddleBar";
 import MobileTertiaryBar from "./Components/PortraitOrientation/MobileTertiaryBar";
 import MobileBookSection from "./Components/BookSection/MobileBookSection";
 import "./App.css";
+import MobileFooter from "./Components/PortraitOrientation/MobileFooter";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <MobileMiddleBar />
         <MobileTertiaryBar />
         <MobileBookSection />
+        <MobileFooter />
       </div>
     </>
   );
