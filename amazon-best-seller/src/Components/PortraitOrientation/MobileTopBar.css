@@ -1,6 +1,7 @@
 .mobile-top-bar{
     background-color: rgb(35, 46, 59);
     color: whitesmoke;
+    padding-top: .5rem;
 }
 
 .above-search-bar{
