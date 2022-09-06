@@ -1,0 +1,13 @@
+.mobile-middle-bar{
+    background-color: rgb(53, 68, 85);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+    padding-left: 1rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.mobile-location-icon{
+    font-size: 1.1rem;
+}
