@@ -8,6 +8,7 @@ import FooterBars from "./Components/FooterBars";
 import MarketingFooter from "./Components/MarketingFooter";
 import MobileTopBar from "./Components/PortraitOrientation/MobileTopBar";
 import MobileMiddleBar from "./Components/PortraitOrientation/MobileMiddleBar";
+import MobileTertiaryBar from "./Components/PortraitOrientation/MobileTertiaryBar";
 import "./App.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <div className="portrait-orientation">
         <MobileTopBar />
         <MobileMiddleBar />
+        <MobileTertiaryBar />
       </div>
     </>
   );
