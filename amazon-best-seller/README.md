@@ -5,9 +5,11 @@
 -to demonstrate ability to use React to build the front end of a site
 
 ## Resources Used:
--Visual Studio Code
--original Amazon books best seller thriller and suspense site for reference (https://www.amazon.com/Best-Sellers-Books-Thrillers-Suspense/zgbs/books/10484/ref=zg_bs_nav_books_2_18)
--FontAwesome
+- React
+- Visual Studio Code
+- yarn
+- original Amazon books best seller thriller and suspense site for reference (https://www.amazon.com/Best-Sellers-Books-Thrillers-Suspense/zgbs/books/10484/ref=zg_bs_nav_books_2_18)
+- FontAwesome
 - Corel PaintShop Pro (to fine tune Amazon logo and user icon)
 - Netlify to simplify deployment
 
