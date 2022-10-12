@@ -1,8 +1,8 @@
 # Mock Amazon Best Seller Site
 
 ## Purpose:
--to recreate the Amazon books best seller site
--to demonstrate ability to use React to build the front end of a site
+- to recreate the Amazon books best seller site
+- to demonstrate ability to use React to build the front end of a site
 
 ## Resources Used:
 - React
