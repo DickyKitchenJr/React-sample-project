@@ -8,8 +8,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo[spin="1"] {
     animation: App-logo-spin infinite 20s linear;
+  }
+
+  .App-logo[spin="0"] {
+    animation: App-logo-spin-left infinite 20s linear;
   }
 }
 
@@ -34,5 +38,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin-left {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
   }
 }
