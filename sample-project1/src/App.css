@@ -8,6 +8,7 @@
 
 .smileSpin{
   padding: 1rem;
+  border-bottom: dashed black 2px;
 }
 
 .App-logo {
@@ -46,4 +47,8 @@
   to {
     transform: rotate(-360deg);
   }
+}
+
+.pageColor{
+  border-bottom: dashed black 2px;
 }

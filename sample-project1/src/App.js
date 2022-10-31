@@ -28,9 +28,13 @@ function App() {
         <button onClick={handleClick}>Change Spin Direction</button>
       </div>
 
-      <PageColor />
-
-      <Form />
+      <div className="pageColor">
+        <PageColor />
+      </div>
+      
+      <div className="formWithAnimation">
+        <Form />
+      </div>
       
     </div>
   );
