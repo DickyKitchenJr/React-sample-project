@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import smile from "./smile.png";
 import PageColor from "./PageColorChanger/PageColor";
+import Form from "./Form/Form";
 import "./App.css";
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
 
       <PageColor />
 
+      <Form />
+      
     </div>
   );
 }

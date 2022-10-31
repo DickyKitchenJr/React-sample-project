@@ -1,0 +1,35 @@
+.form{
+    padding: 1rem;
+}
+
+form {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 4px solid darkcyan;
+    outline-offset: -0.4rem;
+    background-color: white;
+    border: 3px solid black;
+    padding: 1rem;
+}
+
+input{
+    margin-bottom: .3rem;
+}
+
+input[flip="1"]{
+    animation: flip 1s linear;
+}
+
+@keyframes flip {
+    20% {transform: rotateX(72deg);}
+    40% {transform: rotateX(144deg);}
+    60% {transform: rotateX(216deg);}
+    80% {transform: rotateX(288deg);}
+    100% {transform: rotateX(360deg);}
+}
+
+.formButton{
+    margin-left: 27%;
+    margin-top: 1rem;
+}

@@ -1,0 +1,15 @@
+table {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border: 3px solid black;
+  background-color: darkcyan;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 1rem;
+  background-color: white;
+}
