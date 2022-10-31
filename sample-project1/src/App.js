@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
 import smile from "./smile.png";
+import PageColor from "./PageColorChanger/PageColor";
 import "./App.css";
 
 function App() {
@@ -20,19 +21,8 @@ function App() {
         <img spin={spin} src={smile} className="App-logo" alt="logo" />
 
         <button onClick={handleClick}>Change Spin Direction</button>
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <PageColor />
     </div>
   );
 }
