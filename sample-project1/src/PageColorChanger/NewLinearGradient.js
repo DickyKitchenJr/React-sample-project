@@ -1,6 +1,6 @@
 import NewHSL from './NewHSL'
 
-//assign 2 random HSL to gradient
+//PURPOSE: assign 2 random HSL to gradient
 function NewLinearGradient(){
   let newGradient = [['0'],['1']];
   let newLG = ''

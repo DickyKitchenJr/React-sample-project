@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import smile from "./smile.png";
 import PageColor from "./PageColorChanger/PageColor";
 import "./App.css";
@@ -18,10 +17,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img spin={spin} src={smile} className="App-logo" alt="logo" />
-
-        <button onClick={handleClick}>Change Spin Direction</button>
+        <h1>React Experiments</h1>
+        <p>Sometimes you just need a place to play around.</p>
       </header>
+      <img spin={spin} src={smile} className="App-logo" alt="smile face" />
+
+      <button onClick={handleClick}>Change Spin Direction</button>
       <PageColor />
     </div>
   );

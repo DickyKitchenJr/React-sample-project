@@ -10,7 +10,7 @@ class PageColor extends React.Component{
             <h2>Want a different background color?</h2>
             <button id="clickmeHSL" onClick={NewLinearGradient}>Click Me</button>
             <p>Current HSL values:</p>
-            <ul>
+            <ul className='hslList'>
                 <li>HSL 1 = <span id="color1">hsl(0, 0%, 100%)</span></li>
                 <li>HSL 2 = <span id="color2">hsl(0, 0%, 100%)</span></li>
             </ul>
