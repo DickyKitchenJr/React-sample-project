@@ -8,3 +8,6 @@
 
 ### Background color changer
 * having user input change the background color using linear gradient
+
+### Form with flip
+* take a form that accepts user data and have it flip the input boxes and delete the values once the user fills it out completely and clicks the button
