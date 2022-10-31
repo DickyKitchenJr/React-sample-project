@@ -3,14 +3,17 @@
     background-color: hsla(0, 0%, 100%, 0.5);
     border: 2px solid black;
     width: fit-content;
-    margin: 1vw auto;
-    padding: 1vw;
+    margin: 2vw auto;
+    padding: 2vw;
 }
 
 button{
     display: block;
     width: auto;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h2{
@@ -19,4 +22,5 @@ h2{
 
 .hslList{
     list-style-type: none;
+    padding: .5rem;
 }

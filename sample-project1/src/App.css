@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.App-header{
+  padding: 1rem;
+}
+
+.smileSpin{
+  padding: 1rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
