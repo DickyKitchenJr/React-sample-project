@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import FormOutput from "./FormOutput";
 import "./Form.css";
 
@@ -8,6 +8,34 @@ function Form() {
   const [age, setAge] = useState("");
   const [list, setList] = useState([]);
   const [flip, setFlip] = useState(0);
+
+  const blankFirstName = useRef(null);
+  const blankLastName = useRef(null);
+  const blankAge = useRef(null);
+
+  const handleFirstNameRef = () => {
+    if (firstName === "") {
+      return blankFirstName.current.focus();
+    } else {
+      return;
+    }
+  };
+
+  const handleLastNameRef = () => {
+    if (lastName === "") {
+      return blankLastName.current.focus();
+    } else {
+      return;
+    }
+  };
+
+  const handleAgeRef = () => {
+    if (age === "") {
+      return blankAge.current.focus();
+    } else {
+      return;
+    }
+  };
 
   const handleClick = () => {
     setFlip(1);
@@ -26,6 +54,9 @@ function Form() {
       setAge("");
     } else {
       alert("All entries required.");
+      handleAgeRef();
+      handleLastNameRef();
+      handleFirstNameRef();
     }
   };
 
@@ -37,6 +68,7 @@ function Form() {
         <label htmlFor="item">First Name:</label>
         <br />
         <input
+          ref={blankFirstName}
           type="text"
           name="item"
           value={firstName}
@@ -51,6 +83,7 @@ function Form() {
         <label htmlFor="quantity">Last Name:</label>
         <br />
         <input
+          ref={blankLastName}
           type="text"
           name="quantity"
           value={lastName}
@@ -62,6 +95,7 @@ function Form() {
         <label htmlFor="store">Age:</label>
         <br />
         <input
+          ref={blankAge}
           type="text"
           name="store"
           value={age}
