@@ -65,12 +65,12 @@ function Form() {
   return (
     <>
       <div className="form"> <form id="form1">
-        <label htmlFor="item">First Name:</label>
+        <label htmlFor="firstName">First Name:</label>
         <br />
         <input
           ref={blankFirstName}
           type="text"
-          name="item"
+          name="firstName"
           value={firstName}
           onChange={(e) => setFirstName(e.target.value)}
           flip={flip}
@@ -80,24 +80,24 @@ function Form() {
           }}
         />
         <br />
-        <label htmlFor="quantity">Last Name:</label>
+        <label htmlFor="lastName">Last Name:</label>
         <br />
         <input
           ref={blankLastName}
           type="text"
-          name="quantity"
+          name="lastName"
           value={lastName}
           onChange={(e) => setLastName(e.target.value)}
           flip={flip}
           onAnimationEnd={() => setFlip(0)}
         />
         <br />
-        <label htmlFor="store">Age:</label>
+        <label htmlFor="age">Age:</label>
         <br />
         <input
           ref={blankAge}
           type="text"
-          name="store"
+          name="age"
           value={age}
           onChange={(e) => setAge(e.target.value)}
           flip={flip}
