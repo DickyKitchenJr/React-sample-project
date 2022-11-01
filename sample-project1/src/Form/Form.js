@@ -44,7 +44,7 @@ function Form() {
         id: new Date().getTime().toString(),
         firstName,
         lastName,
-        age
+        age,
       };
       setList((list) => {
         return [...list, listRow];
@@ -64,52 +64,58 @@ function Form() {
 
   return (
     <>
-      <div className="form"> <form id="form1">
-        <label htmlFor="firstName">First Name:</label>
-        <br />
-        <input
-          ref={blankFirstName}
-          type="text"
-          name="firstName"
-          value={firstName}
-          onChange={(e) => setFirstName(e.target.value)}
-          flip={flip}
-          onAnimationEnd={() => {
-            setFlip(0);
-            document.getElementById("form1").reset();
-          }}
-        />
-        <br />
-        <label htmlFor="lastName">Last Name:</label>
-        <br />
-        <input
-          ref={blankLastName}
-          type="text"
-          name="lastName"
-          value={lastName}
-          onChange={(e) => setLastName(e.target.value)}
-          flip={flip}
-          onAnimationEnd={() => setFlip(0)}
-        />
-        <br />
-        <label htmlFor="age">Age:</label>
-        <br />
-        <input
-          ref={blankAge}
-          type="text"
-          name="age"
-          value={age}
-          onChange={(e) => setAge(e.target.value)}
-          flip={flip}
-          onAnimationEnd={() => setFlip(0)}
-        />
-        <br />
-        <button className="formButton" type="button" form="form1" onClick={() => handleClick()}>
-          Add To List
-        </button>
-      </form>
-      <FormOutput list={list} /> </div>
-      
+      <div className="form">
+        <form id="form1">
+          <label htmlFor="firstName">First Name:</label>
+          <br />
+          <input
+            ref={blankFirstName}
+            type="text"
+            name="firstName"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
+            flip={flip}
+            onAnimationEnd={() => {
+              setFlip(0);
+              document.getElementById("form1").reset();
+            }}
+          />
+          <br />
+          <label htmlFor="lastName">Last Name:</label>
+          <br />
+          <input
+            ref={blankLastName}
+            type="text"
+            name="lastName"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
+            flip={flip}
+            onAnimationEnd={() => setFlip(0)}
+          />
+          <br />
+          <label htmlFor="age">Age:</label>
+          <br />
+          <input
+            ref={blankAge}
+            type="text"
+            name="age"
+            value={age}
+            onChange={(e) => setAge(e.target.value)}
+            flip={flip}
+            onAnimationEnd={() => setFlip(0)}
+          />
+          <br />
+          <button
+            className="formButton"
+            type="button"
+            form="form1"
+            onClick={() => handleClick()}
+          >
+            Add To List
+          </button>
+        </form>
+        <FormOutput list={list} />
+      </div>
     </>
   );
 }
