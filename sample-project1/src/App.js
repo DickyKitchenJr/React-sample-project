@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import smile from "./smile.png";
 import PageColor from "./PageColorChanger/PageColor";
 import Form from "./Form/Form";
+import BlockWave from "./BlockWave/BlockWave";
 import "./App.css";
 
 function App() {
@@ -34,6 +35,10 @@ function App() {
       
       <div className="formWithAnimation">
         <Form />
+      </div>
+
+      <div className="blockWave">
+        <BlockWave />
       </div>
       
     </div>
