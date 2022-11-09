@@ -68,7 +68,8 @@
 
 .formWithAnimation {
   border-bottom: dashed black 2px;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .blockWave {
