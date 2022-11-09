@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-import FormOutput from "./FormOutput";
 import "./Form.css";
 
 function Form() {
@@ -60,6 +59,11 @@ function Form() {
     }
   };
 
+  const deletePerson = (id) => {
+    const newList = list.filter((person) => person.id !== id);
+    setList(newList);
+  };
+
   // GOAL: to create a form that takes in data, does a flip animation, clears the data, and places data in a list
 
   return (
@@ -114,7 +118,32 @@ function Form() {
             Add To List
           </button>
         </form>
-        <FormOutput list={list} />
+        {/* form output */}
+        <table>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Age</th>
+              <th>Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            {list.map((list) => {
+              const { id, firstName, lastName, age } = list;
+              return (
+                <tr key={id}>
+                  <td>{firstName}</td>
+                  <td>{lastName}</td>
+                  <td>{age}</td>
+                  <td>
+                    <button className="removeButton" onClick={() => deletePerson(id)}>X</button>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
       </div>
     </>
   );

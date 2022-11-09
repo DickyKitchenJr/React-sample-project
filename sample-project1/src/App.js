@@ -26,7 +26,7 @@ function App() {
 
       <div className="smileSpin">
         <img spin={spin} src={smile} className="App-logo" alt="smile face" />
-        <button onClick={handleClick}>Change Spin Direction</button>
+        <button className="spinButton" onClick={handleClick}>Change Spin Direction</button>
       </div>
 
       <div className="pageColor">

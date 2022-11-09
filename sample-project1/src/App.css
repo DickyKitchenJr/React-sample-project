@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-header{
+.App-header {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -10,7 +10,7 @@
   background-color: hsla(0, 0%, 100%, 0.5);
 }
 
-.smileSpin{
+.smileSpin {
   padding: 1rem;
   border-bottom: dashed black 2px;
 }
@@ -29,7 +29,6 @@
     animation: App-logo-spin-left infinite 20s linear;
   }
 }
-
 
 .App-link {
   color: #61dafb;
@@ -53,17 +52,26 @@
   }
 }
 
-.pageColor{
+.spinButton {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pageColor {
   border-bottom: dashed black 2px;
   padding: 2rem;
 }
 
-.formWithAnimation{
-   border-bottom: dashed black 2px;
-   padding: 2rem;
+.formWithAnimation {
+  border-bottom: dashed black 2px;
+  padding: 2rem;
 }
 
-.blockWave{
+.blockWave {
   border-bottom: dashed black 2px;
   padding-top: 2rem;
   padding-bottom: 2rem;
