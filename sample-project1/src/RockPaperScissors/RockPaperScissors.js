@@ -1,19 +1,72 @@
 import React, { useState } from "react";
-import Paper from './RPSImages/Paper.jpg';
-import Rock from './RPSImages/Rock.jpg';
-import Scissors from './RPSImages/Scissors.jpg';
+import Paper from "./RPSImages/Paper.jpg";
+import Rock from "./RPSImages/Rock.jpg";
+import Scissors from "./RPSImages/Scissors.jpg";
 import "./RockPaperScissors.css";
 
 function RockPaperScissors() {
-  const [userPick, setUserPick] = useState(0);
-  const [computerPick, setComputerPick] = useState(0);
+  const [userPick, setUserPick] = useState('');
+  const [computerPick, setComputerPick] = useState('');
 
-  return <>
-    <h2>Rock Paper Scissors!</h2>
-    <img className="paper" src={Paper} alt="crumpled paper" />
-    <img className="rock" src={Rock} alt="boulder" />
-    <img className="scissors" src={Scissors} alt="scissors" />
-  </>;
+  const randomPick = () => {
+    let pick;
+    pick = Math.floor(Math.random() * 3);
+    return pick;
+  };
+
+  const compPick = () => {
+    let computer;
+    computer = randomPick();
+    if (computer === 1) {
+      setComputerPick("Paper");
+    } else if (computer === 2) {
+      setComputerPick("Rock");
+    } else {
+      setComputerPick("Scissors");
+    }
+  };
+
+  const onReset = () =>{
+    setUserPick('')
+    setComputerPick('')
+  }
+
+  return (
+    <>
+      <h2>Rock Paper Scissors!</h2>
+      <figure style={{ display: "none" }}>
+        <img className="paper" src={Paper} alt="crumpled paper" />
+        <figcaption>
+          Paper covered your rock! Yeah! That's right! Completely COVERED!
+          Which... you know... ummm... You know what? I don't really know how
+          that beats rock... but... uhhh... I win. So... Yeah!
+        </figcaption>
+      </figure>
+
+      <figure style={{ display: "none" }}>
+        <img className="rock" src={Rock} alt="boulder" />
+        <figcaption>
+          Rock SMASHED those puny little scissors! Trying cutting stuff now you
+          broken, dull piece of metal! Your mother was a staple remover!
+        </figcaption>
+      </figure>
+
+      <figure style={{ display: "none" }}>
+        <img className="scissors" src={Scissors} alt="scissors" />
+        <figcaption>
+          Scissors cut that paper into confetti! Seriously, who brings paper to
+          a fight? There isn't enough glue in the world to put you back
+          together! Get out of here and go recycle yourself!
+        </figcaption>
+      </figure>
+      <div>
+        <button>Rock</button>
+        <button>Paper</button>
+        <button>Scissors</button>
+      </div>
+      <button onClick={onReset}>Reset</button>
+    </>
+  );
 }
 
 export default RockPaperScissors;
