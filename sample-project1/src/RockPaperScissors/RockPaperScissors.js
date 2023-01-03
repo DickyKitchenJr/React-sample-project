@@ -70,6 +70,8 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
+      <figure><img src={ComputerLoses} alt="a kneeling and shamed android" /><figcaption>How has this happend? I picked CHOICE... I have lost... Now I will be recycled for parts and turned into refrigerator magnets :(</figcaption></figure>
+
       <div>
         <button>Rock</button>
         <button>Paper</button>
