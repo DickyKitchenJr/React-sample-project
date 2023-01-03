@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import Paper from "./RPSImages/Paper.jpg";
 import Rock from "./RPSImages/Rock.jpg";
 import Scissors from "./RPSImages/Scissors.jpg";
+import Start from "./RPSImages/StartBot.jpg";
+import ComputerLoses from "./RPSImages/LoserBot.jpg";
 import "./RockPaperScissors.css";
 
 function RockPaperScissors() {
-  const [userPick, setUserPick] = useState('');
-  const [computerPick, setComputerPick] = useState('');
+  const [userPick, setUserPick] = useState("");
+  const [computerPick, setComputerPick] = useState("");
 
   const randomPick = () => {
     let pick;
@@ -26,14 +28,22 @@ function RockPaperScissors() {
     }
   };
 
-  const onReset = () =>{
-    setUserPick('')
-    setComputerPick('')
-  }
+  const onReset = () => {
+    setUserPick("");
+    setComputerPick("");
+  };
 
   return (
     <>
       <h2>Rock Paper Scissors!</h2>
+
+      <figure>
+        <img className="start" src={Start} alt="floating android" />
+        <figcaption>
+          Do you have what it takes to beat my superior intellect?
+        </figcaption>
+      </figure>
+
       <figure style={{ display: "none" }}>
         <img className="paper" src={Paper} alt="crumpled paper" />
         <figcaption>
@@ -43,7 +53,7 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <figure style={{ display: "none" }}>
+      <figure style={{ display: "block" }}>
         <img className="rock" src={Rock} alt="boulder" />
         <figcaption>
           Rock SMASHED those puny little scissors! Trying cutting stuff now you
@@ -59,6 +69,7 @@ function RockPaperScissors() {
           together! Get out of here and go recycle yourself!
         </figcaption>
       </figure>
+
       <div>
         <button>Rock</button>
         <button>Paper</button>
