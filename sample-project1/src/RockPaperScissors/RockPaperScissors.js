@@ -29,6 +29,21 @@ function RockPaperScissors() {
     }
   };
 
+  const setRock = () => {
+    setUserPick("Rock");
+    compPick();
+  };
+
+  const setPaper = () => {
+    setUserPick("Paper");
+    compPick();
+  };
+
+  const setScissors = () => {
+    setUserPick("Scissors");
+    compPick();
+  };
+
   const onReset = () => {
     setUserPick("");
     setComputerPick("");
@@ -45,7 +60,7 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <figure>
+      <figure style={{ display: "none" }}>
         <img className="robot-hand" src={Tie} alt="robotic hand" />
         <figcaption>
           We have tied. You are one of us now. Welcome to the robot revolution.
@@ -91,9 +106,9 @@ function RockPaperScissors() {
       </figure>
 
       <div>
-        <button onClick={compPick}>Rock</button>
-        <button onClick={compPick}>Paper</button>
-        <button onClick={compPick}>Scissors</button>
+        <button onClick={setRock}>Rock</button>
+        <button onClick={setPaper}>Paper</button>
+        <button onClick={setScissors}>Scissors</button>
       </div>
       <button onClick={onReset}>Reset</button>
     </>
