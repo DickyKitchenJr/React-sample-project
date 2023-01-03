@@ -3,6 +3,7 @@ import smile from "./smile.png";
 import PageColor from "./PageColorChanger/PageColor";
 import Form from "./Form/Form";
 import BlockWave from "./BlockWave/BlockWave";
+import RockPaperScissors from "./RockPaperScissors/RockPaperScissors";
 import "./App.css";
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
 
       <div className="blockWave">
         <BlockWave />
+      </div>
+
+      <div className="RPS">
+        <RockPaperScissors />
       </div>
       
     </div>

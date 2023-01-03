@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Paper from './RPSImages/Paper.jpg';
 import "./RockPaperScissors.css";
 
 function RockPaperScissors() {
@@ -7,6 +8,7 @@ function RockPaperScissors() {
 
   return <>
     <h2>Rock Paper Scissors!</h2>
+    <img src={Paper} alt="crumpled paper" />
   </>;
 }
 
