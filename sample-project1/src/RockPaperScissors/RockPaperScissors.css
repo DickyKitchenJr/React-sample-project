@@ -1,0 +1,7 @@
+.paper{
+    max-width: 19%;
+}
+
+.rock, .scissors{
+    max-width: 42%;
+}

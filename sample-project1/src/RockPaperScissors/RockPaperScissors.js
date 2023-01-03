@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Paper from './RPSImages/Paper.jpg';
+import Rock from './RPSImages/Rock.jpg';
+import Scissors from './RPSImages/Scissors.jpg';
 import "./RockPaperScissors.css";
 
 function RockPaperScissors() {
@@ -8,7 +10,9 @@ function RockPaperScissors() {
 
   return <>
     <h2>Rock Paper Scissors!</h2>
-    <img src={Paper} alt="crumpled paper" />
+    <img className="paper" src={Paper} alt="crumpled paper" />
+    <img className="rock" src={Rock} alt="boulder" />
+    <img className="scissors" src={Scissors} alt="scissors" />
   </>;
 }
 
