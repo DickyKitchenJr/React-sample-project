@@ -4,6 +4,7 @@ import Rock from "./RPSImages/Rock.jpg";
 import Scissors from "./RPSImages/Scissors.jpg";
 import Start from "./RPSImages/StartBot.jpg";
 import ComputerLoses from "./RPSImages/LoserBot.jpg";
+import Tie from "./RPSImages/RobotHand.jpg";
 import "./RockPaperScissors.css";
 
 function RockPaperScissors() {
@@ -41,6 +42,13 @@ function RockPaperScissors() {
         <img className="start" src={Start} alt="floating android" />
         <figcaption>
           Do you have what it takes to beat my superior intellect?
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img className="robot-hand" src={Tie} alt="robotic hand" />
+        <figcaption>
+          We have tied. You are one of us now. Welcome to the robot revolution.
         </figcaption>
       </figure>
 
