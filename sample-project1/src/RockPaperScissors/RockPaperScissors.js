@@ -53,7 +53,7 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <figure style={{ display: "block" }}>
+      <figure style={{ display: "none" }}>
         <img className="rock" src={Rock} alt="boulder" />
         <figcaption>
           Rock SMASHED those puny little scissors! Trying cutting stuff now you
@@ -70,8 +70,12 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <figure>
-        <img className="computer-loses" src={ComputerLoses} alt="a kneeling and shamed android" />
+      <figure style={{ display: "none" }}>
+        <img
+          className="computer-loses"
+          src={ComputerLoses}
+          alt="a kneeling and shamed android"
+        />
         <figcaption>
           How has this happend? I picked CHOICE... I have lost... Now I will be
           recycled for parts and turned into refrigerator magnets :(
@@ -79,9 +83,9 @@ function RockPaperScissors() {
       </figure>
 
       <div>
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
+        <button onClick={compPick}>Rock</button>
+        <button onClick={compPick}>Paper</button>
+        <button onClick={compPick}>Scissors</button>
       </div>
       <button onClick={onReset}>Reset</button>
     </>
