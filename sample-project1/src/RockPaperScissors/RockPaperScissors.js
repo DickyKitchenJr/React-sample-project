@@ -53,14 +53,14 @@ function RockPaperScissors() {
     <>
       <h2>Rock Paper Scissors!</h2>
 
-      <figure>
+      <figure style={{display: userPick === '' ? 'block' : 'none'}}>
         <img className="start" src={Start} alt="floating android" />
         <figcaption>
           Do you have what it takes to beat my superior intellect?
         </figcaption>
       </figure>
 
-      <figure style={{ display: "none" }}>
+      <figure style={{ display: userPick && computerPick && userPick === computerPick ? 'block' : 'none' }}>
         <img className="robot-hand" src={Tie} alt="robotic hand" />
         <figcaption>
           We have tied. You are one of us now. Welcome to the robot revolution.
