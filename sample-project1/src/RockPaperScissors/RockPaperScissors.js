@@ -29,6 +29,20 @@ function RockPaperScissors() {
     }
   };
 
+  const compLoses = () => {
+    if (computerPick === userPick) {
+      return "none";
+    } else if (computerPick === "Rock" && userPick === "Scissors") {
+      return "none";
+    } else if (computerPick === "Paper" && userPick === "Rock") {
+      return "none";
+    } else if (computerPick === "Scissors" && userPick === "Paper") {
+      return "none";
+    } else {
+      return "block";
+    }
+  };
+
   const setRock = () => {
     setUserPick("Rock");
     compPick();
@@ -53,21 +67,33 @@ function RockPaperScissors() {
     <>
       <h2>Rock Paper Scissors!</h2>
 
-      <figure style={{display: userPick === '' ? 'block' : 'none'}}>
+      <figure style={{ display: userPick === "" ? "block" : "none" }}>
         <img className="start" src={Start} alt="floating android" />
         <figcaption>
           Do you have what it takes to beat my superior intellect?
         </figcaption>
       </figure>
 
-      <figure style={{ display: userPick && computerPick && userPick === computerPick ? 'block' : 'none' }}>
+      <figure
+        style={{
+          display:
+            userPick && computerPick && userPick === computerPick
+              ? "block"
+              : "none",
+        }}
+      >
         <img className="robot-hand" src={Tie} alt="robotic hand" />
         <figcaption>
           We have tied. You are one of us now. Welcome to the robot revolution.
         </figcaption>
       </figure>
 
-      <figure style={{ display: "none" }}>
+      <figure
+        style={{
+          display:
+            computerPick === "Paper" && userPick === "Rock" ? "block" : "none",
+        }}
+      >
         <img className="paper" src={Paper} alt="crumpled paper" />
         <figcaption>
           Paper covered your rock! Yeah! That's right! Completely COVERED!
@@ -76,7 +102,14 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <figure style={{ display: "none" }}>
+      <figure
+        style={{
+          display:
+            computerPick === "Rock" && userPick === "Scissors"
+              ? "block"
+              : "none",
+        }}
+      >
         <img className="rock" src={Rock} alt="boulder" />
         <figcaption>
           Rock SMASHED those puny little scissors! Trying cutting stuff now you
@@ -84,7 +117,14 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <figure style={{ display: "none" }}>
+      <figure
+        style={{
+          display:
+            computerPick === "Scissors" && userPick === "Paper"
+              ? "block"
+              : "none",
+        }}
+      >
         <img className="scissors" src={Scissors} alt="scissors" />
         <figcaption>
           Scissors cut that paper into confetti! Seriously, who brings paper to
@@ -93,15 +133,19 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <figure style={{ display: "none" }}>
+      <figure
+        style={{
+          display: compLoses(),
+        }}
+      >
         <img
           className="computer-loses"
           src={ComputerLoses}
           alt="a kneeling and shamed android"
         />
         <figcaption>
-          How has this happend? I picked CHOICE... I have lost... Now I will be
-          recycled for parts and turned into refrigerator magnets :(
+          How has this happend? I picked {computerPick}... I have lost... Now I
+          will be recycled for parts and turned into refrigerator magnets :(
         </figcaption>
       </figure>
 
