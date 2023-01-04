@@ -18,6 +18,19 @@
 
 .rps-figcap{
     width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.rps-picks{
+    margin-bottom: 1rem;
+}
+
+.rps-p{
+    width: fit-content;
     margin: auto;
     background-color: hsla(0, 0%, 100%, 0.5);
+    font-weight: bolder;
 }
