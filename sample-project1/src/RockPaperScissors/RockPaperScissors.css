@@ -1,3 +1,9 @@
+.rps-h2{
+    width: fit-content;
+    margin: auto;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
 .paper, .computer-loses{
     max-width: 33%;
     margin-top: 2vw;

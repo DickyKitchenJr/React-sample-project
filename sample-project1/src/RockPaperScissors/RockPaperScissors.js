@@ -67,15 +67,14 @@ function RockPaperScissors() {
     <>
       <h2 className="rps-h2">Rock Paper Scissors!</h2>
 
-      <figure className="rps-figure" style={{ display: userPick === "" ? "block" : "none" }}>
+      <figure style={{ display: userPick === "" ? "block" : "none" }}>
         <img className="start" src={Start} alt="floating android" />
-        <figcaption>
+        <figcaption className="rps-figcap">
           Do you have what it takes to beat my superior intellect?
         </figcaption>
       </figure>
 
       <figure
-      className="rps-h2"
         style={{
           display:
             userPick && computerPick && userPick === computerPick
@@ -84,20 +83,19 @@ function RockPaperScissors() {
         }}
       >
         <img className="robot-hand" src={Tie} alt="robotic hand" />
-        <figcaption>
+        <figcaption className="rps-figcap">
           We have tied. You are one of us now. Welcome to the robot revolution.
         </figcaption>
       </figure>
 
       <figure
-      className="rps-figure"
         style={{
           display:
             computerPick === "Paper" && userPick === "Rock" ? "block" : "none",
         }}
       >
         <img className="paper" src={Paper} alt="crumpled paper" />
-        <figcaption>
+        <figcaption className="rps-figcap">
           Paper covered your rock! Yeah! That's right! Completely COVERED!
           Which... you know... ummm... You know what? I don't really know how
           that beats rock... but... uhhh... I win. So... Yeah!
@@ -105,7 +103,6 @@ function RockPaperScissors() {
       </figure>
 
       <figure
-      className="rps-figure"
         style={{
           display:
             computerPick === "Rock" && userPick === "Scissors"
@@ -114,14 +111,13 @@ function RockPaperScissors() {
         }}
       >
         <img className="rock" src={Rock} alt="boulder" />
-        <figcaption>
+        <figcaption className="rps-figcap">
           Rock SMASHED those puny little scissors! Trying cutting stuff now you
           broken, dull piece of metal! Your mother was a staple remover!
         </figcaption>
       </figure>
 
       <figure
-      className="rps-figure"
         style={{
           display:
             computerPick === "Scissors" && userPick === "Paper"
@@ -130,7 +126,7 @@ function RockPaperScissors() {
         }}
       >
         <img className="scissors" src={Scissors} alt="scissors" />
-        <figcaption>
+        <figcaption className="rps-figcap">
           Scissors cut that paper into confetti! Seriously, who brings paper to
           a fight? There isn't enough glue in the world to put you back
           together! Get out of here and go recycle yourself!
@@ -138,7 +134,6 @@ function RockPaperScissors() {
       </figure>
 
       <figure
-      className="rps-figure"
         style={{
           display: compLoses(),
         }}
@@ -148,7 +143,7 @@ function RockPaperScissors() {
           src={ComputerLoses}
           alt="a kneeling and shamed android"
         />
-        <figcaption>
+        <figcaption className="rps-figcap">
           How has this happend? I picked {computerPick}... I have lost... Now I
           will be recycled for parts and turned into refrigerator magnets :(
         </figcaption>
@@ -164,7 +159,9 @@ function RockPaperScissors() {
         <button onClick={setPaper}>Paper</button>
         <button onClick={setScissors}>Scissors</button>
       </div>
-      <button className="rps-buttons" onClick={onReset}>Reset</button>
+      <button className="rps-buttons" onClick={onReset}>
+        Reset
+      </button>
     </>
   );
 }
