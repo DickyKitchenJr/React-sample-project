@@ -15,3 +15,9 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
+
+.rps-figcap{
+    width: fit-content;
+    margin: auto;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
