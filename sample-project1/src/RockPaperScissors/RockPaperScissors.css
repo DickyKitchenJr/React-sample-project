@@ -1,7 +1,11 @@
 .paper, .computer-loses{
     max-width: 33%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .start, .robot-hand, .rock, .scissors{
     max-width: 60%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
