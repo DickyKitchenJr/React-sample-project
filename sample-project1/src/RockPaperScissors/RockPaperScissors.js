@@ -65,9 +65,9 @@ function RockPaperScissors() {
 
   return (
     <>
-      <h2>Rock Paper Scissors!</h2>
+      <h2 className="rps-h2">Rock Paper Scissors!</h2>
 
-      <figure style={{ display: userPick === "" ? "block" : "none" }}>
+      <figure className="rps-figure" style={{ display: userPick === "" ? "block" : "none" }}>
         <img className="start" src={Start} alt="floating android" />
         <figcaption>
           Do you have what it takes to beat my superior intellect?
@@ -75,6 +75,7 @@ function RockPaperScissors() {
       </figure>
 
       <figure
+      className="rps-h2"
         style={{
           display:
             userPick && computerPick && userPick === computerPick
@@ -89,6 +90,7 @@ function RockPaperScissors() {
       </figure>
 
       <figure
+      className="rps-figure"
         style={{
           display:
             computerPick === "Paper" && userPick === "Rock" ? "block" : "none",
@@ -103,6 +105,7 @@ function RockPaperScissors() {
       </figure>
 
       <figure
+      className="rps-figure"
         style={{
           display:
             computerPick === "Rock" && userPick === "Scissors"
@@ -118,6 +121,7 @@ function RockPaperScissors() {
       </figure>
 
       <figure
+      className="rps-figure"
         style={{
           display:
             computerPick === "Scissors" && userPick === "Paper"
@@ -134,6 +138,7 @@ function RockPaperScissors() {
       </figure>
 
       <figure
+      className="rps-figure"
         style={{
           display: compLoses(),
         }}
@@ -149,17 +154,17 @@ function RockPaperScissors() {
         </figcaption>
       </figure>
 
-      <div>
+      <div className="rps-picks">
         <p>Player Pick: {userPick}</p>
         <p>Computer Pick: {computerPick}</p>
       </div>
 
-      <div>
+      <div className="rps-buttons">
         <button onClick={setRock}>Rock</button>
         <button onClick={setPaper}>Paper</button>
         <button onClick={setScissors}>Scissors</button>
       </div>
-      <button onClick={onReset}>Reset</button>
+      <button className="rps-buttons" onClick={onReset}>Reset</button>
     </>
   );
 }
