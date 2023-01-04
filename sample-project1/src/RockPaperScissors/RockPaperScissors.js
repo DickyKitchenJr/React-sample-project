@@ -154,10 +154,16 @@ function RockPaperScissors() {
         <p className="rps-p">Computer Pick: {computerPick}</p>
       </div>
 
-      <div className="rps-buttons">
-        <button onClick={setRock}>Rock</button>
-        <button onClick={setPaper}>Paper</button>
-        <button onClick={setScissors}>Scissors</button>
+      <div>
+        <button className="rps-buttons" onClick={setRock}>
+          Rock
+        </button>
+        <button className="rps-buttons" onClick={setPaper}>
+          Paper
+        </button>
+        <button className="rps-buttons" onClick={setScissors}>
+          Scissors
+        </button>
       </div>
       <button className="rps-buttons" onClick={onReset}>
         Reset
