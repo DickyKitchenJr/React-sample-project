@@ -32,9 +32,11 @@
     width: fit-content;
     margin: auto;
     background-color: hsla(0, 0%, 100%, 0.5);
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .rps-buttons{
-    margin: 1rem;
+    margin: .2rem;
+    padding: .2rem;
+    font-weight: bold;
 }
