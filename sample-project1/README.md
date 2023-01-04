@@ -11,3 +11,6 @@
 
 ### Form with flip
 * take a form that accepts user data and have it flip the input boxes and delete the values once the user fills it out completely and clicks the button
+
+### Rock Paper Scissors
+* having a user select an option by pushing a button, a random computer option is chosen, and a win or lose image/message is displayed
