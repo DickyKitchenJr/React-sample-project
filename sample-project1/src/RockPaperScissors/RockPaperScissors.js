@@ -150,6 +150,11 @@ function RockPaperScissors() {
       </figure>
 
       <div>
+        <p>Player Pick: {userPick}</p>
+        <p>Computer Pick: {computerPick}</p>
+      </div>
+
+      <div>
         <button onClick={setRock}>Rock</button>
         <button onClick={setPaper}>Paper</button>
         <button onClick={setScissors}>Scissors</button>
