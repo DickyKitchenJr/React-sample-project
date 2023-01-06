@@ -112,7 +112,7 @@ function RockPaperScissors() {
       >
         <img className="rock" src={Rock} alt="boulder" />
         <figcaption className="rps-figcap">
-          Rock SMASHED those puny little scissors! Trying cutting stuff now you
+          Rock SMASHED those puny little scissors! Try cutting stuff now you
           broken, dull piece of metal! Your mother was a staple remover!
         </figcaption>
       </figure>
