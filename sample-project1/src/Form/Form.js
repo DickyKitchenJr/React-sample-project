@@ -73,6 +73,7 @@ function Form() {
           <label htmlFor="firstName">First Name:</label>
           <br />
           <input
+            data-testid="firstName"
             ref={blankFirstName}
             type="text"
             name="firstName"
@@ -88,6 +89,7 @@ function Form() {
           <label htmlFor="lastName">Last Name:</label>
           <br />
           <input
+            data-testid="lastName"
             ref={blankLastName}
             type="text"
             name="lastName"
@@ -100,6 +102,7 @@ function Form() {
           <label htmlFor="age">Age:</label>
           <br />
           <input
+            data-testid="Age"
             ref={blankAge}
             type="text"
             name="age"
@@ -133,11 +136,16 @@ function Form() {
               const { id, firstName, lastName, age } = list;
               return (
                 <tr key={id}>
-                  <td>{firstName}</td>
-                  <td>{lastName}</td>
-                  <td>{age}</td>
+                  <td data-testid="firstNameEntry">{firstName}</td>
+                  <td data-testid="lastNameEntry">{lastName}</td>
+                  <td data-testid="ageEntry">{age}</td>
                   <td>
-                    <button className="removeButton" onClick={() => deletePerson(id)}>X</button>
+                    <button
+                      className="removeButton"
+                      onClick={() => deletePerson(id)}
+                    >
+                      X
+                    </button>
                   </td>
                 </tr>
               );
