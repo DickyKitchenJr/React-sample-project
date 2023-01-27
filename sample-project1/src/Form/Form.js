@@ -104,7 +104,7 @@ function Form() {
           <input
             data-testid="Age"
             ref={blankAge}
-            type="text"
+            type="number"
             name="age"
             value={age}
             onChange={(e) => setAge(e.target.value)}
