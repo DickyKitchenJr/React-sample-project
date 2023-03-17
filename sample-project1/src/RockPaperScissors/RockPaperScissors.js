@@ -150,8 +150,8 @@ function RockPaperScissors() {
       </figure>
 
       <div className="rps-picks">
-        <p className="rps-p">Player Pick: {userPick}</p>
-        <p className="rps-p">Computer Pick: {computerPick}</p>
+        <p data-testid="playerChoice" className="rps-p">Player Pick: {userPick}</p>
+        <p data-testid="computerChoice" className="rps-p">Computer Pick: {computerPick}</p>
       </div>
 
       <div>
