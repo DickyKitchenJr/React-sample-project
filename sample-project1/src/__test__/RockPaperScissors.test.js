@@ -31,7 +31,7 @@ describe(RockPaperScissors, () =>{
       const ChooseScissors = getByRole("button", { name: "Scissors" });
       fireEvent.click(ChooseScissors);
       const ComputerChoice = getByTestId("computerChoice").textContent;
-      expect(ComputerChoice).not.toEqual("Computer Pick:");
+      expect(ComputerChoice).not.toEqual("Computer Pick: ");
     });
 
     it("resets the outputs when clicking the Reset button", () => {
