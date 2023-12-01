@@ -2,7 +2,9 @@
 
 ## Macro Purpose:
 
-- to take ideas that I may want to implement into a larger project in the future and give them a place to live for future reference
+- to provide a place to showcase small projects using different React skills including the use of hooks and state
+
+## Projects:
 
 ### Alternating animation
 
@@ -19,3 +21,16 @@
 ### Rock Paper Scissors
 
 - having a user select an option by pushing a button, a random computer option is chosen, and a win or lose image/message is displayed
+
+## Resources Used:
+
+- React
+- CSS
+- Font Awesome
+- Jest
+
+## Achievements:
+
+- implemented test using Jest to ensure projects operate within expected ways",
+- utilized various hooks and custom functions to provide an engaging experience for the user while demonstrating understanding of implementing React for page manipulation through user input",
+- utilized a modular approach to present multiple smaller projects in a centralized way
