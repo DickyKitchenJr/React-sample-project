@@ -2,8 +2,7 @@
 
 ## Purpose:
 
-- to recreate the Amazon books best seller site
-- to demonstrate ability to use React to build the front end of a site
+- to create a site using visual references, similar to if a client were to give you a mock-up of something they want you to build
 
 ## Resources Used:
 
@@ -15,7 +14,5 @@
 - Corel PaintShop Pro (to fine tune Amazon logo and user icon)
 - Netlify to simplify deployment
 
-### Challenges along the way:
-
-- icons used were changed to free versions largely found on FontAwesome as the original icons were either Amazon property or required payment to get access to them
-- colors were set by eye comparison vs looking at the exact colors used on the Amazon site as I did not want to copy code from their source code, as a result colors may not match the Amazon site completely
+## Achievements: 
+- demonstrated the ability to create a front-end site from a mock-up; in this case using the 2022 Amazon site as the mock-up
