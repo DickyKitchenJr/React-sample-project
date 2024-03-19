@@ -1,5 +1,8 @@
 # A page to experiment with ideas using React
 
+## Hosted Here:
+[https://react-sample-projects.netlify.app/]
+
 ## Macro Purpose:
 
 - to provide a place to showcase small projects using different React skills including the use of hooks and state
