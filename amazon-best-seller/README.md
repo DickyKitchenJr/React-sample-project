@@ -1,5 +1,8 @@
 # Mock Amazon Best Seller Site
 
+## Hosted Here:
+[https://mock-amazon-best-seller.netlify.app/]
+
 ## Purpose:
 
 - to create a site using visual references, similar to if a client were to give you a mock-up of something they want you to build
